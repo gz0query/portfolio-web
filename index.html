@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Bello Goodluck is a full-stack web developer and robotics enthusiast building useful digital experiences.">
+  <title>Bello Goodluck | Full-Stack Developer &amp; Robotics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="contact.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navigation container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Bello Goodluck home">
+        <span class="brand-mark">BG</span>
+        <span>Bello Goodluck</span>
+      </a>
+      <div class="desktop-nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a class="nav-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <nav aria-label="Mobile navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="mobile-contact">
+        <a href="tel:09030221179">09030221179</a>
+        <a href="https://instagram.com/JidoQuery" target="_blank" rel="noopener noreferrer">@JidoQuery</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR SELECT PROJECTS</p>
+        <p class="welcome-message" id="welcome-message" aria-live="polite"></p>
+        <h1>I build digital products with <span>purpose</span> and a little bit of hardware.</h1>
+        <p class="hero-intro">Full-stack web developer and robotics enthusiast turning ambitious ideas into thoughtful, reliable experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="#contact">Have a project in mind?</a>
+        </div>
+        <div class="hero-meta">
+          <span>Lagos, Nigeria</span>
+          <span class="meta-divider"></span>
+          <span>Web development · Robotics</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Portrait of Bello Goodluck">
+        <div class="portrait-frame">
+          <img src="image.png" class="profile-photo" alt="Bello Goodluck">
+        </div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="visual-caption"><span class="caption-line"></span><span>Curiosity, engineered.</span></div>
+      </div>
+    </section>
+
+    <section class="about-section section-pad" id="about" data-tour="about">
+      <div class="container about-layout">
+        <div class="section-kicker">01 / ABOUT ME</div>
+        <div class="about-content">
+          <h2>Bridging the gap between <span>the screen</span> and the real world.</h2>
+          <p>I'm Bello, a full-stack web developer who enjoys crafting clean, accessible interfaces and dependable applications. My work spans responsive websites, interactive experiences, and practical tools built around real user needs.</p>
+          <p>Beyond the browser, I explore robotics: connecting code to sensors, motion, and physical systems. That mix helps me approach problems from both a product and an engineering perspective.</p>
+          <div class="skill-list" aria-label="Areas of focus">
+            <span>Full-stack development</span><span>Interface design</span><span>Robotics</span><span>Creative coding</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section section-pad" id="projects" data-tour="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">02 / SELECTED WORK</div>
+            <h2>My Creations<span class="accent-period">.</span></h2>
+          </div>
+          <p>A mix of web applications, experiments, and robotics builds made to solve problems and spark curiosity.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <a class="project-image" href="#contact" aria-label="Discuss the Rock Paper Scissors Game project">
+              <img src="https://images.unsplash.com/photo-1613140952277-1c6bd0386ff5?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Game pieces arranged on a table" loading="lazy">
+              <span class="image-index">01</span>
+            </a>
+            <div class="project-details"><div class="project-title-row"><h3>Rock Paper Scissors Game</h3><span class="project-type">GAME</span></div><p>A quick, responsive game with clear feedback and thoughtful interaction details.</p><a class="project-link" href="#contact" data-project="Rock Paper Scissors Game">View Project <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <a class="project-image" href="#contact" aria-label="Discuss the ChowHub Food Store project">
+              <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Burger prepared for a food ordering experience" loading="lazy">
+              <span class="image-index">02</span>
+            </a>
+            <div class="project-details"><div class="project-title-row"><h3>ChowHub Food Store</h3><span class="project-type">E-COMMERCE</span></div><p>A food storefront concept with browsing, cart management, and a smooth checkout flow.</p><a class="project-link" href="#contact" data-project="ChowHub Food Store">View Project <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <a class="project-image" href="#contact" aria-label="Discuss the Smart Expense and Budget App project">
+              <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Financial planning documents and calculator" loading="lazy">
+              <span class="image-index">03</span>
+            </a>
+            <div class="project-details"><div class="project-title-row"><h3>Smart Expense &amp; Budget App</h3><span class="project-type">WEB APP</span></div><p>A simple finance dashboard for tracking spending, budgets, and everyday decisions.</p><a class="project-link" href="#contact" data-project="Smart Expense & Budget App">View Project <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <a class="project-image" href="#contact" aria-label="Discuss the Bipie E-Commerce Store project">
+              <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Online shopping packages ready for delivery" loading="lazy">
+              <span class="image-index">04</span>
+            </a>
+            <div class="project-details"><div class="project-title-row"><h3>Bipie E-Commerce Store</h3><span class="project-type">E-COMMERCE</span></div><p>A polished online store experience designed to make product discovery feel effortless.</p><a class="project-link" href="#contact" data-project="Bipie E-Commerce Store">View Project <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <a class="project-image" href="#contact" aria-label="Discuss the Live Weather Application project">
+              <img src="https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Cloudy sky over a city" loading="lazy">
+              <span class="image-index">05</span>
+            </a>
+            <div class="project-details"><div class="project-title-row"><h3>Live Weather Application</h3><span class="project-type">WEB APP</span></div><p>A clear weather interface that brings current conditions and forecasts into focus.</p><a class="project-link" href="#contact" data-project="Live Weather Application">View Project <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <a class="project-image" href="#contact" aria-label="Discuss Hardware Robotics Builds">
+              <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Small robotics prototype with electronic components" loading="lazy">
+              <span class="image-index">06</span>
+            </a>
+            <div class="project-details"><div class="project-title-row"><h3>Hardware Robotics Builds</h3><span class="project-type">ROBOTICS</span></div><p>Hands-on prototypes that bring software, sensors, and physical components together.</p><a class="project-link" href="#contact" data-project="Hardware Robotics Builds">View Project <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <a class="project-image" href="#contact" aria-label="Discuss Scratch Programming">
+              <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bfce8?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Colorful programming code on a computer screen" loading="lazy">
+              <span class="image-index">07</span>
+            </a>
+            <div class="project-details"><div class="project-title-row"><h3>Scratch Programming</h3><span class="project-type">EDUCATION</span></div><p>Playful coding projects that introduce programming logic through visual creation.</p><a class="project-link" href="#contact" data-project="Scratch Programming">View Project <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <a class="project-image" href="#contact" aria-label="Discuss Vex VR Projects">
+              <img src="https://images.unsplash.com/photo-1561557944-6e7860d1a7eb?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Robotics and technology equipment" loading="lazy">
+              <span class="image-index">08</span>
+            </a>
+            <div class="project-details"><div class="project-title-row"><h3>Vex VR Projects</h3><span class="project-type">ROBOTICS</span></div><p>Virtual robotics challenges exploring algorithmic thinking, control, and iteration.</p><a class="project-link" href="#contact" data-project="Vex VR Projects">View Project <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad" id="contact" data-tour="contact">
+      <div class="container contact-layout">
+        <div class="contact-copy">
+          <div class="section-kicker">03 / YOUR NEXT IDEA</div>
+          <h2>Let's Build<span class="accent-period">.</span></h2>
+          <p>Tell me what you're imagining. Share the essentials and I'll get back to you to discuss the next steps.</p>
+          <a class="contact-detail" href="tel:09030221179">09030221179 <span aria-hidden="true">↗</span></a>
+          <a class="contact-detail" href="https://instagram.com/JidoQuery" target="_blank" rel="noopener noreferrer">@JidoQuery <span aria-hidden="true">↗</span></a>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <h3>Tell me about your idea</h3>
+          <label for="business-name">Name of Business</label>
+          <input id="business-name" name="businessName" type="text" autocomplete="organization" placeholder="Your business or name" required>
+          <label for="project-type">Project Type</label>
+          <select id="project-type" name="projectType" required>
+            <option value="" selected disabled>Select a project type</option>
+            <option value="E-commerce">E-commerce</option>
+            <option value="Portfolio">Portfolio</option>
+            <option value="Game">Game</option>
+            <option value="Robotics">Robotics</option>
+            <option value="Other">Other</option>
+          </select>
+          <label for="brief-outline">Brief Outline</label>
+          <textarea id="brief-outline" name="briefOutline" rows="3" placeholder="What are you looking to create?" required></textarea>
+          <label for="key-features">Key Features Needed</label>
+          <textarea id="key-features" name="keyFeatures" rows="3" placeholder="What should it do?" required></textarea>
+          <button class="button button-primary submit-button" type="submit">Submit Proposal <span aria-hidden="true">↗</span></button>
+          <p class="form-note" id="form-status" role="status">Your proposal opens as a pre-filled WhatsApp message.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#home"><span class="brand-mark">BG</span><span>Bello Goodluck</span></a>
+      <p>Designed with intent. Built with curiosity.</p>
+      <div class="social-links">
+        <a href="https://instagram.com/JidoQuery" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="icon-fill" cx="18" cy="6" r="1"/></svg>
+        </a>
+        <a href="tel:09030221179" aria-label="Call Bello Goodluck">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.2 3.8 9.4 3l2 4.5-2 1.6a15 15 0 0 0 5.5 5.5l1.6-2 4.5 2-.8 2.2a3 3 0 0 1-3.1 1.9A16.3 16.3 0 0 1 5.3 7a3 3 0 0 1 1.9-3.2Z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal-backdrop" id="welcome-modal" aria-hidden="true">
+    <section class="welcome-modal" role="dialog" aria-modal="true" aria-labelledby="welcome-title">
+      <span class="modal-kicker">A PERSONAL INTRODUCTION</span>
+      <h2 id="welcome-title">Welcome! May I know your name?</h2>
+      <p>I'll tailor your visit and guide you through a few highlights.</p>
+      <form id="welcome-form">
+        <label class="sr-only" for="visitor-name">Your name</label>
+        <input id="visitor-name" name="visitorName" type="text" autocomplete="given-name" placeholder="Your name" required maxlength="60">
+        <button class="button button-primary" type="submit">Continue <span aria-hidden="true">↗</span></button>
+      </form>
+    </section>
+  </div>
+
+  <div class="tour-backdrop" id="tour-backdrop" aria-hidden="true"></div>
+  <aside class="tour-card" id="tour-card" aria-live="polite" aria-label="Guided tour" hidden>
+    <div class="tour-card-top"><span id="tour-step">01 / 03</span><button type="button" class="tour-close" id="tour-skip" aria-label="Close guided tour">×</button></div>
+    <h2 id="tour-title"></h2>
+    <p id="tour-description"></p>
+    <div class="tour-actions"><button type="button" class="tour-skip-link" id="tour-skip-link">Skip tour</button><button type="button" class="button button-primary tour-next" id="tour-next">Next <span aria-hidden="true">→</span></button></div>
+  </aside>
+
+  <div class="whatsapp-widget">
+    <div class="chat-bubble" id="chat-bubble" aria-hidden="true">
+      <button class="chat-close" id="chat-close" type="button" aria-label="Close chat message">×</button>
+      <p>Need more info or ready to build? Chat with me!</p>
+      <a href="https://wa.me/2349030221179?text=Hello%20Bello,%20I%20viewed%20your%20portfolio%20and%20need%20more%20info..." target="_blank" rel="noopener noreferrer">Start Chat <span aria-hidden="true">↗</span></a>
+    </div>
+    <button class="whatsapp-fab" id="whatsapp-fab" type="button" aria-label="Open WhatsApp chat" aria-expanded="false" aria-controls="chat-bubble">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3.5A12.3 12.3 0 0 0 5.4 22l-1.6 6 6.2-1.6A12.4 12.4 0 1 0 16 3.5Zm0 22.4c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-3.7 1 .9-3.6-.2-.4A10 10 0 1 1 16 25.9Zm5.5-7.5c-.3-.2-1.8-.9-2.1-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.2 8.2 0 0 1-2.5-1.5 9.2 9.2 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.7l.5-.6.3-.5c.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.1 1.4 3.3c.2.2 2.4 3.7 5.9 5.1.8.4 1.5.6 2 .7.9.3 1.7.2 2.3.1.7-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4Z"/></svg>
+    </button>
+  </div>
+</body>
+</html>
